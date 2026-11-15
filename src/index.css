@@ -1,0 +1,16 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+@layer base{
+html{scroll-behavior:smooth}
+body{@apply font-sans text-[17px] leading-relaxed text-slate-800 bg-white antialiased}
+h1,h2,h3{@apply font-display text-navy tracking-tight}
+:focus-visible{@apply outline outline-2 outline-offset-2 outline-gold}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}}
+@layer components{
+.btn{@apply inline-flex items-center justify-center rounded-md px-5 py-2.5 font-semibold transition-colors}
+.btn-primary{@apply bg-navy text-white hover:bg-navy-700}
+.btn-gold{@apply bg-gold text-white hover:bg-[#9d7a2e]}
+.btn-ghost{@apply border border-navy/30 text-navy hover:bg-sky-100}
+.wrap{@apply mx-auto max-w-6xl px-5 sm:px-8}
+.field{@apply w-full rounded-md border border-slate-300 bg-white px-3.5 py-2.5 text-slate-900 focus:border-navy focus:ring-1 focus:ring-navy}
+.label{@apply mb-1.5 block text-sm font-semibold text-navy}
+.prose-p{@apply max-w-prose text-slate-700}}
