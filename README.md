@@ -11,7 +11,7 @@ A student-led community awareness website about kindergarten immunization in Che
 - `about.html` — initiative and contact information.
 - `login.html` and `register.html` — demo sign-in and account creation pages.
 
-The site reports that 83.81% of Cherokee County kindergarteners are up to date, compared with a 95% public-health benchmark, and cites the Southern Alliance for Public Health Leadership. The source profile does not clearly identify the underlying data year. The benchmark is not a legal school-entry requirement; see the linked Georgia resources for current requirements.
+The site reports that 83.81% of Cherokee County kindergarteners are up to date, compared with a 95% public-health benchmark, and cites the Southern Alliance for Public Health Leadership. The benchmark is not a legal school-entry requirement; see the linked Georgia resources for current requirements.
 
 ## Run locally
 
